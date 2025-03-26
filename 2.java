@@ -35,25 +35,4 @@ public class sort1 {
     }
 }
 
-/*output
-Enter no. of frames:
-4
-Enter data for 1th frame>>342
-Enter data for 2th frame>>256
-Enter data for 3th frame>>890
-Enter data for 4th frame>>356
 
-
-Before Sorting>>
-seqNum->703, Data->342
-seqNum->654, Data->256
-seqNum->704, Data->890
-seqNum->876, Data->356
-
-
- After sorting>>
-seqNum->654, Data->256
-seqNum->703, Data->342
-seqNum->704, Data->890
-seqNum->876, Data->356
-*/
