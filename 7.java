@@ -1,6 +1,4 @@
-/*Write a program for simple RSA algorithm to encrypt and decrypt the data.*/
 
-/*RSA algorithm*/
 import java.io.*;
 import java.math.*;
 import java.nio.charset.*;
