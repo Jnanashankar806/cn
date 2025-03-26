@@ -88,6 +88,6 @@ Enter the Weight Matrix of Graph
 0 10 0
 0 0 20
 0 -30 0
-Enter the Source Vertex : 1
+Enter the Source Vertex : 1S
 Negative weight cycle detected.
 */
