@@ -1,5 +1,3 @@
-/*Token Bucket for congestion control*/
-/* In this the bucket is filled with constant rate called token_generation_rate untill the bucket is full */
 
 import java.util.Scanner;
 import java.util.*;
