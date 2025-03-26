@@ -80,14 +80,3 @@ public class CRC {
     }
 }
 
-// fix the generator same at both sender and receiver side
-
-// output:-
-// At Sender Side: 
-// Enter message bits: 100100
-// Enter generator: 1101
-// The checksum code is: 100100001
-// At Receiver Side: 
-// Enter checksum code: 11011
-// Enter generator: 1101
-// Data stream is invalid. CRC error occurred.
