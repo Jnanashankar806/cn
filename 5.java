@@ -1,8 +1,4 @@
-/* Using TCP/IP sockets, write a client – server program to make the 
-client send the file name and to make the server send back the contents 
-of the requested file if present*/
 
-/*SERVER program*/
 import java.net.*;
 import java.io.*;
 
@@ -29,7 +25,8 @@ public class TCPS {
         ContentRead.close();
     }
 }
-/*first the server port should be established before it accepts any request from the client*/  
+
+
 /*Client program*/
 
 import java.net.*;
@@ -56,24 +53,3 @@ public class TCPC {
     }
 }
        
-/*First run the server program then in new terminal window run the client program and input the 
-file name the server will return the file content if it exists
-
-
-
-
-output:-
-SERVER PROGRAM
-javac TCPS.java
-java TCPS
-Server ready for connection
-Connection Is successful and waiting for the client request
-CLIENT program
-in new terminal window
-javac TCPC.java
- java TCPC
-Enter the filename
-text.txt
-This the file client requested from the server....
-*/
-  
